@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+}
+body{
+
 }
 /*Fonts*/
 button{
@@ -354,7 +358,7 @@ header button:focus {
 
 .price {
     color: #CB9F7A;
-    font-size: 2em;
+    font-size: calc(1vw + 10px);
     margin: -20px 0;
     position: absolute;
     left: 90%;
@@ -372,9 +376,9 @@ header button:focus {
     border: 1px solid #CB9F7A;
     letter-spacing: 2px;
     cursor: pointer;
-    margin: 40px;
-    margin-left: 50%;
-    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 40px;
 }
 
 .btn3:hover {
