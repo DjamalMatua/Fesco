@@ -660,11 +660,15 @@ input[type="submit"]:hover {
     #navbarNav {
         padding: 20px 5px;
         padding-top: 10px;
+        padding-right: 0;
         text-align: center;
         z-index: 9999;
         width: 100%;
         background-color: #0A101E;
     }
+    .navbar ul {
+	padding-right: 0;
+}
 
     .cover{
         min-height: 700px;
