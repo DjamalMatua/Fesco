@@ -36,8 +36,7 @@ h5{
 }
 
 .header.active {
-    background-color: rgba(33, 37, 41, 0.97);
-    box-shadow: 0 1px 5px rgba(2, 9, 2, 1);
+    background-color: #0A101E;
     transition: 0.5s;
 }
 
@@ -67,7 +66,7 @@ h5{
 }
 
 .navbar {
-    padding-top: 20px;
+
 }
 
 .logo {
@@ -645,13 +644,10 @@ input[type="submit"]:hover {
     }
 
     #navbarNav {
-        border-color: rgba(0, 0, 0, 0.95);
-        margin-top: -10px;
         padding: 20px 5px;
         z-index: 9999;
         width: 100%;
-        background-color: rgba(10, 16, 30, 0.98);
-        box-shadow: 0px 3px 5px #000;
+        background-color: #0A101E;
     }
 
     .cover{
