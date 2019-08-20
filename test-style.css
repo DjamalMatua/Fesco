@@ -513,7 +513,7 @@ input[type="submit"]:hover {
     text-align: left;
 }
 .headline p {
-	font-size: calc(0.4vw + 10px);
+	font-size: calc(0.4vw + 14px);
 }
 
 .btn-map {
