@@ -70,16 +70,13 @@ h5{
     transition: 0.5s;
 }
 
-.navbar {
-
-}
 
 .logo {
     font-family: 'La Belle Aurore', cursive;
     font-size: 3.2em;
     color: white;
     transition: 0.4s;
-
+    padding-left: 8.7vw;
 }
 
 .logo:hover {
@@ -125,12 +122,17 @@ header button:focus {
 .navbar ul li a:hover {
     color: #CB9F7A;
 }
+.navbar ul{
+    padding-right: 7.7vw;
+}
 
 .line {
     background-color: gray;
-    width: 100%;
+    width: 80%;
     position: relative;
     height: 2px;
+    display: block;
+    margin: 0 auto;
     margin-top: -20px;
 }
 
@@ -647,9 +649,18 @@ input[type="submit"]:hover {
     .line {
         display: none;
     }
+    .navbar {
+	padding-left: 0;
+        padding-right: 0;
+}
 
+    .my_toggler {
+	margin-right: 8.4vw;
+}
     #navbarNav {
         padding: 20px 5px;
+        padding-top: 10px;
+        text-align: center;
         z-index: 9999;
         width: 100%;
         background-color: #0A101E;
